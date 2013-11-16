@@ -1,0 +1,16 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Task2";
+}
+
+<h2>Task Two</h2>
+@using (Html.BeginForm("ReverseText", "Home"))
+{
+  <label for="inputNumber">Please input a line of text: </label>
+  <input type="text" name="inputText" id="inputText" value=""/>
+  <input type="submit" name="submit" value="submit" />
+}
+
+
+
